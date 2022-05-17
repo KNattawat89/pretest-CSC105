@@ -6,10 +6,12 @@ import reportWebVitals from './reportWebVitals';
 // import Navbar from './components/Navbar';
 // import BlackBox from "./components/InputBox/BlackBox";
 import Welcome from './page/welcome';
+import Todo from './page/todo'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Welcome/>
+   {/* <Welcome/> */}
+   <Todo/>
   </React.StrictMode>
 );
 
